@@ -18,7 +18,7 @@ public class AuthenticationSteps {
                 Open.url("https://www.saucedemo.com/")
         );
     }
-    @When("Colin logs in with valid credentials")
+    @When("Juana logs in with valid credentials")
     public void logs_in_with_valid_credentials() {
         OnStage.theActorInTheSpotlight().attemptsTo(
                 Login.asA(Users.STANDARD_USER)
