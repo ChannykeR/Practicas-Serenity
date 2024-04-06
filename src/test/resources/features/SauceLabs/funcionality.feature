@@ -16,3 +16,4 @@ Feature: Validacion de conocimientos de Autoamtización
   #Yelitza
   #Laura Diaz
   #MIGUEL ESTUBO ACA PRESUMIENTO SU PANTALLA
+  #Tengo la pantalla mas grande de la clase, amo panama
