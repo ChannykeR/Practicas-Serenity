@@ -1,4 +1,4 @@
-package starter.questions;
+package starter.questions.Activities;
 
 import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;

@@ -1,4 +1,4 @@
-package starter.ui.ShoppinUI;
+package starter.ui.ShoppinUI.Activities;
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 

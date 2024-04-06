@@ -1,9 +1,9 @@
-package starter.task.SauceLabs;
+package starter.task.Activities;
 
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.ensure.Ensure;
 import starter.models.Users;
-import starter.questions.CompanyContactsQuestions;
+import starter.questions.Activities.CompanyContactsQuestions;
 
 public class CompanyConstactsTask {
 
