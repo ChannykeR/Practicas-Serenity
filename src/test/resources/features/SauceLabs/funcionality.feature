@@ -12,5 +12,6 @@ Feature: Validacion de conocimientos de Autoamtización
   #Marlon Yepes 
   #Sajhith Begambre
   #Channy no estuvo aqui
+  #Lorena Bohorquez
 
 
