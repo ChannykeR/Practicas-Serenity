@@ -9,3 +9,8 @@ Feature: Validacion de conocimientos de Autoamtización
 
   # todos se colfgaaorn en el examen de autoamtización :XD
 
+  #Marlon Yepes 
+  #Sajhith Begambre
+  #Channy no estuvo aqui
+
+
