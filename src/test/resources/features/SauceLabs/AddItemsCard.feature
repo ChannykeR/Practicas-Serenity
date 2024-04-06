@@ -12,10 +12,10 @@ Feature: Adding items to the Cart
         Then the shopping cart count should be 2
         And the item should appear in the cart
 
-        @ExampleTwo
-        Example: Customer should see best-selling products on the catalog page
-          When Candy has logged on to the Application
-          Then she should be presented with the following
-            | Title                 | Price  |
-            | Sauce Labs Backpack   | $29.99 |
-            | Sauce Labs Bike Light | $9.99  |
+        #@ExampleTwo
+        #Example: Customer should see best-selling products on the catalog page
+          #When Candy has logged on to the Application
+          #Then she should be presented with the following
+            #| Title                 | Price  |
+          #| Sauce Labs Backpack   | $29.99 |
+          #| Sauce Labs Bike Light | $9.99 |

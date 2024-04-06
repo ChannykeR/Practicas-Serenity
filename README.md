@@ -1,4 +1,4 @@
-# Getting started with Serenity and Cucumber
+# Getting started with Serenity 8 Cucumber
 
 
 
