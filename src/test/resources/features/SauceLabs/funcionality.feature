@@ -9,14 +9,9 @@ Feature: Validacion de conocimientos de Autoamtización
 
   # todos se colfgaaorn en el examen de autoamtización :XD
 
-<<<<<<< HEAD
-
-=======
-
+  #Marlon Yepes
   #Sajhith Begambre
-  #Channy estuvo aqui
-
->>>>>>> 6f7e4d7ae7f38bbc3413c0118baf40e38980c740
-
-
-
+  #Channy no estuvo aqui
+  #Lorena Bohorquez
+  #Yelitza
+  #Laura Diaz
