@@ -11,13 +11,13 @@ import net.serenitybdd.screenplay.ensure.Ensure;
 import net.serenitybdd.screenplay.ui.Button;
 import net.serenitybdd.screenplay.ui.InputField;
 import net.serenitybdd.screenplay.ui.PageElement;
-import starter.models.Product;
+
 
 import java.util.List;
 import java.util.Map;
 
 public class CatalogStepDefinitions {
-
+/*
     @Given("{actor} has logged on to the Application")
     public void on_the_login_page(Actor actor) {
         actor.attemptsTo(
@@ -44,5 +44,5 @@ public class CatalogStepDefinitions {
             );
         }
     }
-
+ */
 }
