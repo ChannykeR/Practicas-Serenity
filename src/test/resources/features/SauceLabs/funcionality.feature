@@ -9,4 +9,14 @@ Feature: Validacion de conocimientos de Autoamtización
 
   # todos se colfgaaorn en el examen de autoamtización :XD
 
-#Laura Diaz 
+<<<<<<< HEAD
+
+=======
+
+  #Sajhith Begambre
+  #Channy estuvo aqui
+
+>>>>>>> 6f7e4d7ae7f38bbc3413c0118baf40e38980c740
+
+
+
