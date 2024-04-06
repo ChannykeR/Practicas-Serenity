@@ -7,6 +7,6 @@ Feature: Validacion de conocimientos de Autoamtización
 
   #3. Validar el funcionamiento de boton sign in visualizando el form de creación de una cuenta
 
-  # Crear Scenario Gherkin Stepsdefinitions task y questions
+  # todos se colfgaaorn en el examen de autoamtización :XD
 
 
