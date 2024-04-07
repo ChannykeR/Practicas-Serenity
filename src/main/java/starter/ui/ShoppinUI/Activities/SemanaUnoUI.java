@@ -2,7 +2,7 @@ package starter.ui.ShoppinUI.Activities;
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
-public class CompanyContactsUI {
+public class SemanaUnoUI {
 
     public static final Target ADDRESS = Target.the("Direccion de la empresa")
             .located(By.xpath("//*[@id=\"block_contact_infos\"]/div/ul/li[1]"));

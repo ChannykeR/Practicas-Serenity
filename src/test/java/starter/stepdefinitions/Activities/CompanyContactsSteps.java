@@ -7,9 +7,9 @@ import io.cucumber.java.en.When;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.waits.WaitUntil;
-import starter.questions.Activities.CompanyContactsQuestions;
+import starter.questions.Activities.SemanaUnoQuestions;
 import starter.task.Activities.CompanyContactsTask;
-import starter.ui.ShoppinUI.Activities.CompanyContactsUI;
+import starter.ui.ShoppinUI.Activities.SemanaUnoUI;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
@@ -22,7 +22,7 @@ public class CompanyContactsSteps {
         public void OpenNavegator(Actor actor) {
             actor.attemptsTo(
                     Open.url("http://www.automationpractice.pl/index.php"),
-                    WaitUntil.the(CompanyContactsUI.ADDRESS, isPresent()).forNoMoreThan(5).seconds()
+                    WaitUntil.the(SemanaUnoUI.ADDRESS, isPresent()).forNoMoreThan(5).seconds()
             );
     }
     @When("^dirige a la seccion de datos de contacto$")
@@ -39,13 +39,13 @@ public class CompanyContactsSteps {
         String Phone = "0123-456-789";
         String Email = "sales@yourcompany.com";
         theActorInTheSpotlight().should(
-                seeThat("direccion de la empresa", CompanyContactsQuestions.AddressQuestion(), equalTo(Address))
+                seeThat("direccion de la empresa", SemanaUnoQuestions.AddressQuestion(), equalTo(Address))
         );
         theActorInTheSpotlight().should(
-                seeThat("numero de la empresa", CompanyContactsQuestions.PhoneQuestion(), equalTo(Phone))
+                seeThat("numero de la empresa", SemanaUnoQuestions.PhoneQuestion(), equalTo(Phone))
         );
         theActorInTheSpotlight().should(
-                seeThat("correo de la empresa", CompanyContactsQuestions.EmailQuestion(), equalTo(Email))
+                seeThat("correo de la empresa", SemanaUnoQuestions.EmailQuestion(), equalTo(Email))
         );
     }
 }
