@@ -36,8 +36,16 @@ public class CompanyContactsSteps {
     @Then("^valida datos de contacto de la empresa$")
     public void ValidateData() {
         String Address = "My Company, 42 avenue des Champs Elysées 75000 Paris France";
+        String Phone = "0123-456-789";
+        String Email = "sales@yourcompany.com";
         theActorInTheSpotlight().should(
-                seeThat("direccion de la empresa", CompanyContactsQuestions.Address(), equalTo(Address))
+                seeThat("direccion de la empresa", CompanyContactsQuestions.AddressQuestion(), equalTo(Address))
+        );
+        theActorInTheSpotlight().should(
+                seeThat("numero de la empresa", CompanyContactsQuestions.PhoneQuestion(), equalTo(Phone))
+        );
+        theActorInTheSpotlight().should(
+                seeThat("correo de la empresa", CompanyContactsQuestions.EmailQuestion(), equalTo(Email))
         );
     }
 }
