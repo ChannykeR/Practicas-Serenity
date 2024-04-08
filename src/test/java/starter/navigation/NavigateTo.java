@@ -16,6 +16,10 @@ public class NavigateTo {
         return Open.url("https://www.saucedemo.com/inventory.html");
     }
 
+    public static Performable automatioPractice() {
+        return Open.url("http://www.automationpractice.pl/index.php");
+    }
+
     public static Performable toTheshoppingCart() {
         return Click.on(".shopping_cart_link");
     }
