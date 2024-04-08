@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         plugin = {"pretty"},
         features = "src/test/resources/features",
         glue = "starter/stepdefinitions",
-        tags = "@ValidateContactsCompany"
+        tags = "@BasicSearch"
 
 )
 public class CatalogTestSuite {

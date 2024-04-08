@@ -4,15 +4,17 @@ Feature: Validacion de flujos generales en la pangina de MyShop
       Given Pepe tiene acceso a la pagina
 
 
-    @ValidateContactsCompany
-      Scenario: Validar el email, correo y direccion de la empresa
-        When dirige a la seccion de datos de contacto
-        Then valida datos de contacto de la empresa
+  #  @ValidateContactsCompany
+  #    Scenario: Validar el email, correo y direccion de la empresa
+  #      When dirige a la seccion de datos de contacto
+  #      Then valida datos de contacto de la empresa
 
- #   @BasicSearch
- #     Scenario: Realizar una busqueda basica en la pagina
- #     When realiza la busqueda del producto deseado
- #     Then valida el resultado de la busqueda
+    @BasicSearch
+      Scenario: Realizar una busqueda basica en la pagina
+      When realiza la busqueda del producto deseado
+      Then el resultado de la busqueda debe ser
+        | GarmentName   | Value |
+        | Printed Dress | $51   |
 
  #   @ValidateRegistrationForm
  #     Scenario: Realizar la validacion del formulario de registro

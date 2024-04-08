@@ -13,5 +13,12 @@ public class SemanaUnoUI {
     public static final Target EMAIL = Target.the("Email de trabajo")
             .located(By.xpath("//*[@id=\"block_contact_infos\"]/div/ul/li[3]/span/a"));
 
+    public static final Target SEARCH_BAR = Target.the("Barra de busqueda")
+            .located(By.id("search_query_top"));
+
+    public static final Target SEARCH_BUTTON = Target.the("Barra de busqueda")
+            .located(By.xpath("//*[@id=\"searchbox\"]/button"));
+
+
 
 }
