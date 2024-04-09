@@ -20,4 +20,8 @@ public class SignInUI {
     public static final Target BUTTON_CREATE_ACCOUNT = Target.the("Button Create Account")
             .located(By.xpath("//*[@id=\"SubmitCreate\"]/span/i"));
 
+    public static final Target TITLE_AUTHENTICATION = Target.the("Title authentication")
+            .located(By.xpath("//*[@id='center_column']/h1"));
+    public static final Target BUTTON_FORGOT = Target.the("Button forgot your password")
+            .located(By.xpath("//*[@id=\"login_form\"]/div/p[1]/a"));
 }

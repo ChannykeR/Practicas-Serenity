@@ -8,7 +8,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {"pretty"},
         features = "src/test/resources/features",
-        tags = "@tercerTest"
+        glue = "starter/stepdefinitions",
+        tags = "@FailedCredentials"
 )
 public class CatalogTestSuite {
 }
