@@ -4,7 +4,7 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Scroll;
 import net.serenitybdd.screenplay.waits.WaitUntil;
-import starter.ui.ShoppinUI.Activities.SemanaUnoUI;
+import starter.ui.Activities.SemanaUnoUI;
 
 import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isPresent;
 

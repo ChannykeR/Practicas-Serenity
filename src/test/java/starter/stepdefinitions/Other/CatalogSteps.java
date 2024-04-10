@@ -1,4 +1,4 @@
-package starter.stepdefinitions.SauceLabsSteps;
+package starter.stepdefinitions.Other;
 
 import io.cucumber.java.en.*;
 import net.serenitybdd.screenplay.Actor;
@@ -7,9 +7,9 @@ import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.ensure.Ensure;
 import starter.models.Users;
 import starter.navigation.NavigateTo;
-import starter.questions.CartQuestions;
-import starter.task.SauceLabs.Login;
-import starter.task.SauceLabs.AddToCart;
+import starter.questions.Other.CartQuestions;
+import starter.task.Other.Login;
+import starter.task.Other.AddToCart;
 
 import java.util.List;
 

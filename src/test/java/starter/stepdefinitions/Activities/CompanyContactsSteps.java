@@ -9,7 +9,7 @@ import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.waits.WaitUntil;
 import starter.questions.Activities.SemanaUnoQuestions;
 import starter.task.Activities.CompanyContactsTask;
-import starter.ui.ShoppinUI.Activities.SemanaUnoUI;
+import starter.ui.Activities.SemanaUnoUI;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
@@ -22,7 +22,7 @@ public class CompanyContactsSteps {
         public void OpenNavegator(Actor actor) {
             actor.attemptsTo(
                     Open.url("http://www.automationpractice.pl/index.php"),
-                    WaitUntil.the(SemanaUnoUI.ADDRESS, isPresent()).forNoMoreThan(5).seconds()
+                    WaitUntil.the(SemanaUnoUI.ADDRESS, isPresent()).forNoMoreThan(10).seconds()
             );
     }
     @When("^dirige a la seccion de datos de contacto$")

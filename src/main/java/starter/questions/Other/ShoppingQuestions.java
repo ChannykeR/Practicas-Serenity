@@ -1,8 +1,8 @@
-package starter.questions;
+package starter.questions.Other;
 
 import net.serenitybdd.screenplay.Question;
 
-import static starter.ui.ShoppinUI.Shopping.RESULTS;
+import static starter.ui.Other.Shopping.RESULTS;
 
 public class ShoppingQuestions {
 

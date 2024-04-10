@@ -1,20 +1,4 @@
-package starter.stepdefinitions.SauceLabsSteps;
-
-import io.cucumber.java.DataTableType;
-import io.cucumber.java.en.*;
-import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.actions.Click;
-import net.serenitybdd.screenplay.actions.Enter;
-import net.serenitybdd.screenplay.actions.Open;
-import net.serenitybdd.screenplay.actors.OnStage;
-import net.serenitybdd.screenplay.ensure.Ensure;
-import net.serenitybdd.screenplay.ui.Button;
-import net.serenitybdd.screenplay.ui.InputField;
-import net.serenitybdd.screenplay.ui.PageElement;
-
-
-import java.util.List;
-import java.util.Map;
+package starter.stepdefinitions.Other;
 
 public class CatalogStepDefinitions {
 /*

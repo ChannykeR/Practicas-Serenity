@@ -1,6 +1,5 @@
-package starter.task.SauceLabs;
+package starter.task.Other;
 
-import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;

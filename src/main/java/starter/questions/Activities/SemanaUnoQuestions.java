@@ -1,7 +1,7 @@
 package starter.questions.Activities;
 
 import net.serenitybdd.screenplay.Question;
-import starter.ui.ShoppinUI.Activities.SemanaUnoUI;
+import starter.ui.Activities.SemanaUnoUI;
 
 public class SemanaUnoQuestions {
 

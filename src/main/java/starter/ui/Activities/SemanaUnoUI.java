@@ -1,4 +1,4 @@
-package starter.ui.ShoppinUI.Activities;
+package starter.ui.Activities;
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
@@ -16,7 +16,7 @@ public class SemanaUnoUI {
     public static final Target SEARCH_BAR = Target.the("Barra de busqueda")
             .located(By.id("search_query_top"));
 
-    public static final Target SEARCH_BUTTON = Target.the("Barra de busqueda")
+    public static final Target SEARCH_BUTTON = Target.the("Boton de buscar")
             .located(By.xpath("//*[@id=\"searchbox\"]/button"));
 
 
