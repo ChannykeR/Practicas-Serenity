@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 public class SectionElementsUI {
 
 
-    public static final Target BUTTON_TEXTO_BOX = Target.the("boton de text box")
+    public static final Target BUTTON_TEXT_BOX = Target.the("boton de text box")
             .located(By.id("item-0"));
 
     public static final Target TITLE_TEXT_BOX = Target.the("titulo de text box")
@@ -53,5 +53,36 @@ public class SectionElementsUI {
 
     public static final Target RESULT_PERMANENT_ADDRESS_TEXT_BOX = Target.the("resultado de la direccion permanente del fomulario de la pantalla textbox")
             .located(By.xpath("/html/body/div[2]/div/div/div/div[2]/div[2]/form/div[6]/div/p[4]"));
+
+    public static final Target BUTTON_CHECK_BOX = Target.the("boton de checkbox")
+            .located(By.xpath("/html/body/div[2]/div/div/div/div[1]/div/div/div[1]/div/ul/li[2]"));
+
+    public static final Target TEXT_CHECK_BOX = Target.the("texto de checkbox")
+            .located(By.xpath("//*[@id=\"app\"]/div/div/div/div[2]/h1"));
+
+
+    public static final Target CHECK_OFF_TEXT_HOME_CHECK_BOX = Target.the("check sin seleccionar del texto home en la pantalla de checkbox")
+            .located(By.xpath("/html/body/div[2]/div/div/div/div[2]/div[2]/div/ol/li/span/label/span[1]"));
+
+    /*
+    public static final Target CHECK_ON_TEXT_HOME_CHECK_BOX = Target.the("check seleccionado del boton home en la pantalla de chekbox")
+            .located(By.className());
+     */
+
+    public static final Target BUTTON_RADIO_BUTTON = Target.the("boton de RadioButton")
+            .located(By.xpath("//*[@id=\"item-2\"]"));
+
+    public static final Target TITLE_RADIO_BUTTON = Target.the("titulo de RadioButton")
+            .located(By.xpath("//*[@id=\"app\"]/div/div/div/div[2]/h1"));
+
+    public static final Target BUTTON_YES_RADIO_BUTTON = Target.the("texto y boton de si de la pantalla RadioButton")
+            .located(By.xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[2]/label"));
+
+
+    public static final Target BUTTON_IMPRESSIVE_RADIO_BUTTON = Target.the("texto y boton de impressive de la pantalla RadioButton")
+            .located(By.xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/div[3]/label"));
+
+    public static final Target TEXT_BUTTON_SELECTED_RADIO_BUTTON = Target.the("texto que se visualiza al seleccionar los botones de la pantalla RadioButton")
+            .located(By.xpath("//*[@id=\"app\"]/div/div/div/div[2]/div[2]/p"));
 
 }

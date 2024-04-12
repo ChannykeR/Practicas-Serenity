@@ -40,4 +40,9 @@ public class SectionElementsQuestion {
     public static Question<String> ResultPermanentAddressTextBox(){
         return actor -> SectionElementsUI.RESULT_PERMANENT_ADDRESS_TEXT_BOX.resolveFor(actor).getText().trim();
     }
+
+    public static Question<String> TitleRadioButton() {
+        return actor -> SectionElementsUI.TITLE_RADIO_BUTTON.resolveFor(actor).getText().trim();
+    }
+
 }

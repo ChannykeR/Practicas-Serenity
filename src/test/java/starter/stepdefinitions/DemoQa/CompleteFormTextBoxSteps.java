@@ -17,7 +17,7 @@ import static org.hamcrest.Matchers.equalTo;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
-public class CompleteFormTextBox {
+public class CompleteFormTextBoxSteps {
     @Given("{actor} tiene acceso a la pagina DemoQa")
     public void AccessPagesDemoQa(Actor actor) {
         actor.attemptsTo(
@@ -28,11 +28,13 @@ public class CompleteFormTextBox {
     @And("^direcciona a la seccion de TextBox$")
     public void SectionTextBo() {
         theActorInTheSpotlight().attemptsTo(
-                Scroll.to(SectionHomeUI.BUTTON_FORM),
-                Click.on(SectionHomeUI.BUTTON_FORM),
-                Click.on(SectionElementsUI.BUTTON_TEXTO_BOX)
+                Scroll.to(SectionHomeUI.BUTTON_ELEMENTS),
+                Click.on(SectionHomeUI.BUTTON_ELEMENTS),
+                Click.on(SectionElementsUI.BUTTON_TEXT_BOX)
         );
     }
+
+
 
     @When("^completa los campos solicitados$")
     public void CompleteFields() {
