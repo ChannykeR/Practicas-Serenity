@@ -24,3 +24,5 @@ Feature: Validacion de los diferentes escenarios en la seccion de Elements
         And direcciona a la seccion de RadioButton
         When selecciona los botones
         Then valida los textos de los botones
+
+

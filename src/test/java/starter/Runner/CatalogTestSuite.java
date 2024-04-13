@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         plugin = {"pretty"},
         features = "src/test/resources/features",
         glue = "starter/stepdefinitions",
-        tags = "@CompleteFormTextBox"
+        tags = "@ValidateTableResults"
 
 )
 public class CatalogTestSuite {
