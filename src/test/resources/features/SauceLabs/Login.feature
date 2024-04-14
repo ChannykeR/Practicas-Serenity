@@ -2,7 +2,7 @@ Feature: Login
 
   Rule: Customer need to provide valid credentials to access the product catalog
 
-      @test
+      @TCAModificar
       Scenario: Colin log in with valid credentials
         Given Colin is on the login page
         When Colin logs in with valid credentials

@@ -1,5 +1,6 @@
 package starter.stepdefinitions.automationpracticeSteps;
 
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.*;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.actions.Open;
@@ -8,18 +9,32 @@ import starter.questions.AutomationPracticeQuestions.SignInQuestions;
 import starter.task.AutomationPracticeTask.ClicSignIn;
 import starter.task.AutomationPracticeTask.ScrollTitle;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
+import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 import static org.hamcrest.core.IsEqual.equalTo;
 
 public class FormSignInSteps {
 
-    @Given("{actor} Ingresa a la pagina automationpractice")
-    public void IngressWeb(Actor actor) {
+    @Given("{actor} Ingresa a la pagina {string}")
+    public void IngressWeb(Actor actor, String url, DataTable dataTable) {
+        actor.attemptsTo(
+                Open.url(url)
+        );
+
+    }
+    /*
+    @Given("^(.*) Ingresa a la pagina automationpractice$")
+    public void Ingress(Actor actor) {
         actor.attemptsTo(
                 Open.browserOn().thePageNamed("pages.AutomationPractice")
         );
 
     }
+    */
 
     @When("realiza clic en Sign in")
     public void ClicSignIn() {
@@ -40,5 +55,6 @@ public class FormSignInSteps {
         );
 
     }
+
 
 }

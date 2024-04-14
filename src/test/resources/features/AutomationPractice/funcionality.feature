@@ -1,5 +1,7 @@
 Feature: Validacion de funcionalidades de pagina automationpractice
 
+  descripcion adicional
+
 
   #1. Validar en la pagina pricincipal en el footer se visualice la información de direccion, telefono, email para contacto de la empresa
 
@@ -13,9 +15,18 @@ Feature: Validacion de funcionalidades de pagina automationpractice
 
   Background: Validar el funcionamiento de boton sign in visualizando el form de creación de una cuenta
 
-  @tercerTest
-  Scenario: ingresar a sing in validar formulario
-    Given Marlon Ingresa a la pagina automationpractice
+
+  @tercerTest @test
+  Scenario: ingresar a sing in validar formulario automationpractice
+    Given Marlon Ingresa a la pagina "http://www.automationpractice.pl/index.php"
     When realiza clic en Sign in
     Then se debe visualizar el formualrio de creación de cuenta
+
+  @tercerTest @test
+  Scenario: ingresar a sing in validar formulario demoqa
+    Given Lorena Ingresa a la pagina "https://demoqa.com/"
+
+
+
+
 
