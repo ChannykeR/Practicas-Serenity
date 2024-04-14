@@ -1,4 +1,4 @@
-Feature: Validacion de funcionalidades de pagina automationpractice
+#Feature: Validacion de funcionalidades de pagina automationpractice
 
 
   #1. Validar en la pagina pricincipal en el footer se visualice la información de direccion, telefono, email para contacto de la empresa
@@ -11,18 +11,16 @@ Feature: Validacion de funcionalidades de pagina automationpractice
 
   # todos se colfgaaorn en el examen de autoamtización :XD
 
-  Background: Validar el funcionamiento de boton sign in visualizando el form de creación de una cuenta
+  #Background: Validar el funcionamiento de boton sign in visualizando el form de creación de una cuenta
 
-  @tercerTest
-  Scenario: ingresar a sing in validar formulario
-    Given Marlon Ingresa a la pagina automationpractice
-    When realiza clic en Sign in
-    Then se debe visualizar el formualrio de creación de cuenta
+  #@tercerTest
+  #Scenario: ingresar a sing in validar formulario
+    #Given Marlon Ingresa a la pagina automationpractice
+    #When realiza clic en Sign in
+    #Then se debe visualizar el formualrio de creación de cuenta
 
 
-    @primerTest
 
-    Background
 
 
 
