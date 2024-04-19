@@ -8,4 +8,5 @@ Feature: Login
         When Colin logs in with valid credentials
         Then she should be presented with the product catalog
 
+        #Hi
 
