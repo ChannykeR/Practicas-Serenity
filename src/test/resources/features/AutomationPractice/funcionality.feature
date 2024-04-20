@@ -13,9 +13,22 @@ Feature: Validacion de funcionalidades de pagina automationpractice
 
   Background: Validar el funcionamiento de boton sign in visualizando el form de creación de una cuenta
 
+
   @tercerTest
   Scenario: ingresar a sing in validar formulario
     Given Marlon Ingresa a la pagina automationpractice
     When realiza clic en Sign in
     Then se debe visualizar el formualrio de creación de cuenta
 
+  @segundoTest
+  Scenario: Validar el funcionamiento del buscador
+    Given Sebastian Ingresa a la pagina automationpracticee
+    When realiza un busqueda
+    Then se debe visualizar la pantalla de resultados
+
+
+  @primerTest
+  Scenario: Validar los elementos del footer
+    Given Clara Ingresa a la pagina automationpractice
+    When hace scroll hasta el footer de la pagina
+    Then se muestran los elementos del footer
