@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberSerenityRunner.class)
 @CucumberOptions(
         plugin = {"pretty"},
-        features = "src/test/resources/features/AutomatioPractice/Home.feature",
+        features = "src/test/resources/features/AutomationPractice/Home.feature",
         tags = "@laura"
 )
 

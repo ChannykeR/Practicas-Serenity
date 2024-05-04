@@ -13,7 +13,7 @@ import starter.task.SauceLabs.Login;
 public class AuthenticationSteps {
 
     @Given("{actor} is on the login page")
-    public void on_the_login_page(Actor actor) {
+    public void n_the_login_page(Actor actor) {
         actor.attemptsTo(
                 Open.url("https://www.saucedemo.com/")
         );
